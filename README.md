@@ -82,8 +82,8 @@ SELECT aisle, SUM(quantity) FROM groceries GROUP BY aisle ORDER BY SUM(quantity)
 ```sql
 aisle	  SUM(quantity)
 -------  --------------
-1	           1
-2	           3
+1	           2
+2	           4
 3	           6
 ```
 
